@@ -1,3 +1,1 @@
-app > admin > cars > components > car-list.jsx
-> create > _components > add-car-form.jsx
-> _components > sidebar.jsx
+app > settings > page.jsx and _components > settings-form.jsx both are empty

@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from "uuid";
 import { db } from "@/lib/prisma";
 import { createClient } from "@/lib/supabase";
 import { auth } from "@clerk/nextjs/server";
-// import { serializeCarData } from "@/lib/helpers";
+import { serializeCarData } from "@/lib/helpers";
 
 // Function to convert File to base64
 async function fileToBase64(file) {
@@ -26,7 +26,8 @@ export async function processCarImageWithAI(file) {
 
     // Initialize Gemini API
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    // const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
     // Convert image file to base64
     const base64Image = await fileToBase64(file);
@@ -47,10 +48,10 @@ export async function processCarImageWithAI(file) {
       3. Year (approximately)
       4. Color
       5. Body type (SUV, Sedan, Hatchback, etc.)
-      6. Mileage
+      6. Mileage (give a guess or return 0 and no other text or symbol only number ex. 13)
       7. Fuel type (your best guess)
       8. Transmission type (your best guess)
-      9. Price (your best guess)
+      9. Price (your best guess and do not use comma, dollar sign or any other text just plain number ex. 30000)
       10. Short Description as to be added to a car listing
 
       Format your response as a clean JSON object with these fields:
