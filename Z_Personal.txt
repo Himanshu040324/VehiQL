@@ -1,0 +1,3 @@
+app > admin > cars > components > car-list.jsx
+> create > _components > add-car-form.jsx
+> _components > sidebar.jsx
