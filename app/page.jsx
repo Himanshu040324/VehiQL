@@ -1,4 +1,5 @@
-import CarCard from "@/components/car-card";
+import { getFeaturedCars } from "@/actions/home";
+import { CarCard } from "@/components/car-card";
 import { HomeSearch } from "@/components/home-search";
 import {
   Accordion,
@@ -7,16 +8,17 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { bodyTypes, carMakes, faqItems, featuredCars } from "@/lib/data";
+import { bodyTypes, carMakes, faqItems } from "@/lib/data";
 import { SignedOut } from "@clerk/nextjs";
 import { Calendar, Car, ChevronRight, Shield } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
+  const featuredCars = await getFeaturedCars();
+
   return (
     <div className=" pt-20 flex flex-col">
-
       {/* Hero */}
       <section className=" relative py-16 md:py-28 dotted-background">
         <div className=" max-w-4xl mx-auto text-center">
