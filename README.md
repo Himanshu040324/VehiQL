@@ -1,6 +1,6 @@
 # VehiQL 🚗📊
 
-![Project Banner Placeholder](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/Dashboard.png)
+![Project Banner Placeholder](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/public/Dashboard.png)
 
 > **An Intelligent, Secure, and AI-Powered Vehicle Data Management Platform.**
 
