@@ -1,6 +1,6 @@
 # VehiQL 🚗📊
 
-![Project Banner Placeholder](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/Dashboard.png)
+![Project Banner Placeholder](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/public/Dashboard.png)
 
 > **An Intelligent, Secure, and AI-Powered Vehicle Data Management Platform.**
 
@@ -96,9 +96,9 @@ Follow these steps to set up the project locally.
 
 _Replace this table with actual images of your application for maximum impact!_
 
-|                                                    Login Page                                                    |                                                 Data Collection Form                                                  |                                                    Dashboard View                                                    |
-| :--------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
-| ![Login Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/LoginPage.png) | ![Form Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/DataCollectForm.png) | ![Dashboard Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/Dashboard.png) |
+|                                               Login Page                                               |                                            Data Collection Form                                             |                                               Dashboard View                                               |
+| :----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
+| ![Login Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/public/LoginPage.png) | ![Form Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/public/DataCollectForm.png) | ![Dashboard Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/public/Dashboard.png) |
 
 ---
 

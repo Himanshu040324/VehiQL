@@ -1,1 +1,0 @@
-app > settings > page.jsx and _components > settings-form.jsx both are empty
