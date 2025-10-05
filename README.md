@@ -1,6 +1,6 @@
 # VehiQL 🚗📊
 
-![Project Banner Placeholder](/vehiql-ai/public/Dashboard.png)
+![Project Banner Placeholder](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/Dashboard.png)
 
 > **An Intelligent, Secure, and AI-Powered Vehicle Data Management Platform.**
 
@@ -15,15 +15,15 @@ Experience the platform in action:
 
 ## ✨ Key Features
 
-| Icon | Feature | Technology |
-| :---: | :--- | :--- |
-| **🔐** | **Secure Authentication** | Seamless user login and management powered by **Clerk**. |
-| **🧠** | **AI-Powered Forms** | Generate context-aware data collection forms using **Google GenAI** integration. |
-| **🛡️** | **Web Protection** | Enhanced security and attack prevention implemented via **Arcjet**. |
-| **🏗️** | **Modern UI/UX** | Beautiful, accessible, and responsive components built with **shadcn/ui**. |
-| **🗄️** | **Robust Data Layer** | Scalable data storage and querying handled by **Supabase**. |
-| **✅** | **Type-Safe Validation** | Client-side data integrity ensured by **Zod** and **react-form**. |
-| **🖼️** | **Easy File Uploads** | Simple and robust file handling using **react-dropzone**. |
+|  Icon  | Feature                   | Technology                                                                       |
+| :----: | :------------------------ | :------------------------------------------------------------------------------- |
+| **🔐** | **Secure Authentication** | Seamless user login and management powered by **Clerk**.                         |
+| **🧠** | **AI-Powered Forms**      | Generate context-aware data collection forms using **Google GenAI** integration. |
+| **🛡️** | **Web Protection**        | Enhanced security and attack prevention implemented via **Arcjet**.              |
+| **🏗️** | **Modern UI/UX**          | Beautiful, accessible, and responsive components built with **shadcn/ui**.       |
+| **🗄️** | **Robust Data Layer**     | Scalable data storage and querying handled by **Supabase**.                      |
+| **✅** | **Type-Safe Validation**  | Client-side data integrity ensured by **Zod** and **react-form**.                |
+| **🖼️** | **Easy File Uploads**     | Simple and robust file handling using **react-dropzone**.                        |
 
 ---
 
@@ -47,8 +47,8 @@ Follow these steps to set up the project locally.
 
 ### Prerequisites
 
-* Node.js (v18+)
-* npm or yarn
+- Node.js (v18+)
+- npm or yarn
 
 ### Installation
 
@@ -94,11 +94,11 @@ Follow these steps to set up the project locally.
 
 ## 📸 Screenshots
 
-*Replace this table with actual images of your application for maximum impact!*
+_Replace this table with actual images of your application for maximum impact!_
 
-| Login Page | Data Collection Form | Dashboard View |
-| :---: | :---: | :---: |
-| ![Login Screenshot](/vehiql-ai/public/LoginPage.png) | ![Form Screenshot](/vehiql-ai/public/DataCollectForm.png) | ![Dashboard Screenshot](/vehiql-ai/public/Dashboard.png) |
+|                                                    Login Page                                                    |                                                 Data Collection Form                                                  |                                                    Dashboard View                                                    |
+| :--------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
+| ![Login Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/LoginPage.png) | ![Form Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/DataCollectForm.png) | ![Dashboard Screenshot](https://raw.githubusercontent.com/Himanshu040324/VehiQL/main/vehiql-ai/public/Dashboard.png) |
 
 ---
 
