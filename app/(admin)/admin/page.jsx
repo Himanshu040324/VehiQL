@@ -1,3 +1,6 @@
+// edited by chatgpt
+export const dynamic = "force-dynamic";
+
 import { getDashboardData } from "@/actions/admin";
 import { Dashboard } from "./_components/dashboard";
 
