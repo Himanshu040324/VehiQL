@@ -9,7 +9,7 @@ VehiQL is a modern web application designed for the efficient and secure collect
 ## 🚀 Live Demo
 
 Experience the platform in action:
-👉 **[https://vehi-ql-three.vercel.app/](https://vehi-ql-three.vercel.app/)**
+👉 **[https://vehi-ql-three.vercel.app/](https://vehi-ql-tau.vercel.app/)**
 
 ---
 
